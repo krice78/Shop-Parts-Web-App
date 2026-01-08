@@ -41,7 +41,7 @@ public class BootStrapData implements CommandLineRunner {
 
        /*
         OutsourcedPart o= new OutsourcedPart();
-        o.setCompanyName("Western Governors University");
+        o.setCompanyName("Any");
         o.setName("out test");
         o.setInv(5);
         o.setPrice(20.0);
@@ -60,7 +60,7 @@ public class BootStrapData implements CommandLineRunner {
             System.out.println(part.getName()+" "+part.getCompanyName());
         }
 
-        /*
+        /* example products
         Product bicycle= new Product("bicycle",100.0,15);
         Product unicycle= new Product("unicycle",100.0,15);
         productRepository.save(bicycle);
